@@ -1,14 +1,22 @@
-<div class="container"> 
-    <div class="header col-md-12">
-     <header></header>
+<div class="container">
+  <div class="row">
+    <header></header>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <navigation>
+      </navigation>
     </div>
-     <div class="navigation col-md-3">
-       <navigation></navigation>
+
+    <div class="col-md-9">
+      <router-outlet class="content"></router-outlet>
     </div>
-     <div class="content col-md-9">
-       <router-outlet></router-outlet>
-    </div>
-     <div class="footer col-md-12">
-       <footer></footer>
-    </div>
+  </div>
+
+  <div class="row">
+    <footer></footer>
+  </div>
+
+  
+
 </div>

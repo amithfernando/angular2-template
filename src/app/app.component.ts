@@ -10,5 +10,5 @@ import {NavigationComponent} from './ui/navigation/navigation.component'
   entryComponents:[HeaderComponent,FooterComponent,NavigationComponent]
 })
 export class AppComponent {
- 
+  
 }

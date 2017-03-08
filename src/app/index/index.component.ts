@@ -13,7 +13,7 @@ export class IndexComponent implements OnInit {
   public constructor(private titleService: Title ) {
     titleService.setTitle(this.pageTitle );
    }
-
+   
   ngOnInit() {
     
   }
