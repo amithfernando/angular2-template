@@ -1,22 +1,17 @@
-<div class="container">
-  <div class="row">
-    <header></header>
-  </div>
-  <div class="row">
-    <div class="col-md-3">
-      <navigation>
-      </navigation>
+<app-header></app-header>
+
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <app-navigation></app-navigation>
     </div>
+    <div class="col-sm-10 text-left">
+      <router-outlet></router-outlet>
+<!-- Routed views go here -->
 
-    <div class="col-md-9">
-      <router-outlet class="content"></router-outlet>
+     
     </div>
   </div>
-
-  <div class="row">
-    <footer></footer>
-  </div>
-
-  
-
 </div>
+
+<app-footer></app-footer>

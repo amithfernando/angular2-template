@@ -6,7 +6,7 @@ import { Title }     from '@angular/platform-browser';
   templateUrl: './index.component.html',
   styleUrls: ['./index.component.css']
 })
-export class IndexComponent implements OnInit {
+export class IndexComponent  implements OnInit {
 
   pageTitle="Index Page";
 
